@@ -1,38 +1,131 @@
-# Fundamental Booster
+# Personal Data Collector - Detailed Documentation
 
-A small interactive Python script that collects basic personal data from the user, prints each value along with its type and memory address, and estimates the user's birth year.
+## 1. Project Title
 
-## What it does
+**Interactive Personal Data Collector**
 
-1. Prompts the user for:
-   - Name
-   - Age
-   - Height (in meters)
-   - Favourite number
-2. Prints each collected value together with its Python type and id (memory address).
-3. Calculates an approximate birth year based on the current year (2026) and the entered age.
-4. Prints a farewell message.
+------------------------------------------------------------------------
 
-## Requirements
+## 2. Project Description
 
-Python 3.x. No external libraries needed.
+The Interactive Personal Data Collector is a beginner-friendly Python
+application designed to collect basic personal information from a user
+through the command line. It accepts user input, stores it in variables,
+identifies the data type of each value, estimates the user's birth year
+from the entered age, and displays the collected information in a
+readable format.
 
-## Usage
+------------------------------------------------------------------------
 
-Run the script from a terminal using: python fundamental_booster.py
+## 3. Objective
 
-You will be prompted to enter your name, age, height, and favourite number in turn. The script will then display the collected information and your estimated birth year.
+-   Learn how user input works.
+-   Understand different data types.
+-   Practice storing and displaying information.
+-   Perform a simple calculation.
+-   Improve basic programming skills.
 
-## Example
+------------------------------------------------------------------------
 
-When run, the script greets the user, asks for name, age, height, and favourite number, then echoes back each value with its type and memory address, followed by an estimated birth year and a goodbye message.
+## 4. Features
 
-## Known issues
+-   User-friendly interaction.
+-   Collects personal information.
+-   Accepts text, integer, and decimal values.
+-   Displays entered information.
+-   Identifies each value's data type.
+-   Estimates birth year.
+-   Prints a closing thank-you message.
 
-- The birth year message contains a hardcoded phrase "(based on your age of 17)" regardless of the age actually entered — this looks like a leftover placeholder and likely needs to be updated to reference the user's actual age.
-- Memory addresses (id()) are implementation details of CPython and will vary between runs; they're printed here for educational purposes only.
-- No input validation — non-numeric input for age, height, or favourite number will raise an exception.
-  
-connect to me:
-linkdin = www.linkedin.com/in/nisha-sonkusre-283526415
-email = nishasonkusre07@gmail.com
+------------------------------------------------------------------------
+
+## 5. Inputs Required
+
+  Input              Description
+  ------------------ --------------------------
+  Name               User's full name
+  Age                User's current age
+  Height             Height in meters
+  Favourite Number   User's favourite integer
+
+------------------------------------------------------------------------
+
+## 6. Processing
+
+After collecting the information, the program: 1. Stores the entered
+values. 2. Determines the data type of each value. 3. Calculates an
+approximate birth year using the current year and age. 4. Displays all
+collected information.
+
+------------------------------------------------------------------------
+
+## 7. Outputs
+
+The program displays: - User name - Age - Height - Favourite number -
+Data types - Estimated birth year - Thank-you message
+
+------------------------------------------------------------------------
+
+## 8. Data Types Used
+
+  Data Type   Purpose
+  ----------- ------------------------
+  String      Store name
+  Integer     Store age
+  Float       Store height
+  Integer     Store favourite number
+
+------------------------------------------------------------------------
+
+## 9. Formula Used
+
+Estimated Birth Year = Current Year − Age
+
+(Current year considered: **2026**)
+
+------------------------------------------------------------------------
+
+## 10. Learning Outcomes
+
+After completing this project, students will understand: - Variables -
+User Input - Type Conversion - Data Types - Arithmetic Operations -
+Output Formatting
+
+------------------------------------------------------------------------
+
+## 11. Advantages
+
+-   Easy to understand
+-   Suitable for beginners
+-   Improves Python fundamentals
+-   Demonstrates practical input/output
+-   Simple logic implementation
+
+------------------------------------------------------------------------
+
+## 12. Limitations
+
+-   No input validation
+-   Uses a fixed current year
+-   Stores data temporarily
+-   No database or file storage
+
+------------------------------------------------------------------------
+
+## 13. Possible Future Improvements
+
+-   Validate user input
+-   Automatically detect the current year
+-   Save data to a file
+-   Add graphical user interface
+-   Store multiple user records
+
+------------------------------------------------------------------------
+
+## 14. Conclusion
+
+The Interactive Personal Data Collector is a simple educational project
+that demonstrates the basic concepts of Python programming. It helps
+beginners practice taking user input, storing values, understanding data
+types, performing calculations, and presenting results in a structured
+format.

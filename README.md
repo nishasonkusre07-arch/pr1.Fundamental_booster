@@ -295,6 +295,11 @@ advanced programming projects.
 -   📖 Python Programming Books
 -   🌐 Online Python Tutorials
 
+📱 explanation video  :
+
+https://drive.google.com/file/d/1uIipntup7S3egvEukYsWNXHUGykn3MLW/view?usp=drive_link
+
+
  🔹 connect to me :
  linkedin : www.linkedin.com/in/nisha-sonkusre-283526415
  Email : nishasonkusre07@gmail.com
